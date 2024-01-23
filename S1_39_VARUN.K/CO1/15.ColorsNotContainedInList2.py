@@ -1,0 +1,6 @@
+color_list1=set(["green","orange","red"])
+color_list2=set(["green","purple","yellow"])
+print("list1",color_list1)
+print("list2",color_list2)
+print("colours from list1 that not contained in list2:")
+print(color_list1.difference(color_list2))
